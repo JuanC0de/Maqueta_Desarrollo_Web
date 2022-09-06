@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+:root{
+    --color-1: rgb(68, 63, 63);
+    --color-2: rgb(66, 92, 241);
+    --color-3: rgb(41, 35, 35);
+    --color-4: rgb(253, 250, 253);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    background:url(../source/fondo.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+    background-color: var(--color-3);
+    justify-content: space-between;
+    border-bottom: 10px solid var(--color-2);
+
+}
+.titulo_first{
+    color: white;
+    margin-left: 15px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.menu p{
+    margin: 15px;
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.menu p:hover{
+    color:var(--color-2);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    
+}
+main p{
+    width: 50%;
+}
