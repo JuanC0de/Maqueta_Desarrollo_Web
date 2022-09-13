@@ -2,7 +2,7 @@
 
 :root{
     --color-1: rgb(68, 63, 63);
-    --color-2: rgb(66, 92, 241);
+    --color-2: rgb(70, 143, 253);
     --color-3: rgb(41, 35, 35);
     --color-4: rgb(253, 250, 253);
 }
@@ -32,7 +32,7 @@ header{
 }
 .titulo_first{
     color: white;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 .menu{
     display: flex;
@@ -62,6 +62,10 @@ main{
 }
 main p{
     width: 50%;
+    font-size: 500;
+}
+main h1{
+    font-size: 5rem;
 }
 
 .boletin{
@@ -69,6 +73,7 @@ main p{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
 .boletin h1{
     color: white;
@@ -77,6 +82,40 @@ main p{
 
 .panel_info{
     background-color: white;
-    height: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
 }
-
+.panel_info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buscador_boletin{
+    display: flex;
+    align-items: center;
+}
+.buscador{
+    color: black;
+    height: 2rem;
+    width: 400px;
+}
+.button{
+    width: 30%;
+    height: 2.4rem;
+    background-color: rgb(232,73,29);
+    border-color: rgb(232,73,29);
+    content: 'Suscribete';
+    color:white;
+    margin-left: 10px;
+}
+footer{
+    background-color: var(--color-2);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
