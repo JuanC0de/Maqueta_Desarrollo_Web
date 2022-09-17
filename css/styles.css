@@ -145,8 +145,23 @@ main h1{
 }
 /*Fin servicios*/
 /*Inicio Contacto*/
-.right_column_contacto{
+.right_columnContacto{
+    width: 30%;
+    height: auto;
+    margin-top: 3.6rem;
     
+} 
+.info{
+    color:white;
+    background: var(--color-3);
+    padding: 35px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.right_columnContacto iframe{
+    width: 100%;
+    border-radius: 15px;
 }
 /*Fin Contacto*/
 .buscador_boletin{
