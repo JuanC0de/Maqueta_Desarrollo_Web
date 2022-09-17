@@ -57,7 +57,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 700px;
     color: white;
 }
 main p{
@@ -93,6 +93,62 @@ main h1{
     align-items: center;
     justify-content: center;
 }
+
+/*Main page Nosotros*/
+.panel_info_nosotros{
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px;
+    padding-left: 200px;
+    padding-top:40px;
+}
+.left_column{
+    width: 60%;
+}
+.left_column h1{
+    font-size: 3rem;
+}
+.first_p{
+    color: black;
+    font-size: 1.7rem;
+    padding: 5px;
+}
+.second_p{
+    color:white;
+    background: var(--color-3);
+    padding: 35px;
+    font-size: 1.5rem;
+}
+.right_column{
+    width: 30%;
+    height: 600px;
+    margin-top: 3.6rem;
+    color:white;
+    background: var(--color-3);
+    padding: 35px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+} 
+
+/*End main page Nosotros*/
+
+/*Inicio servicios*/
+.targets{
+    background: gainsboro;
+    padding: 30px;
+    margin:10px;
+    border-radius: 10px;
+}
+/*Fin servicios*/
+/*Inicio Contacto*/
+.right_column_contacto{
+    
+}
+/*Fin Contacto*/
 .buscador_boletin{
     display: flex;
     align-items: center;
