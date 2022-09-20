@@ -145,6 +145,41 @@ main h1{
 }
 /*Fin servicios*/
 /*Inicio Contacto*/
+.targets-inputs{
+    background: var(--color-2);
+    padding: 30px;
+    color: white;
+    font-size: 1.4rem;
+    margin:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.targets-inputs input{
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    width: 100%;
+    height: 2.2rem;
+    border-radius: 10px;
+}
+.targets-inputs textarea{
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+}
+.button2{
+    width: 35%;
+    height: 3rem;
+    background-color: rgb(232,73,29);
+    border-color: rgb(232,73,29);
+    color:white;
+    margin-left: 10px;
+}
+.sendForm{
+    display: flex;
+    justify-content: center;
+}
 .right_columnContacto{
     width: 30%;
     height: auto;
@@ -164,6 +199,7 @@ main h1{
     border-radius: 15px;
 }
 /*Fin Contacto*/
+
 .buscador_boletin{
     display: flex;
     align-items: center;
@@ -190,3 +226,80 @@ footer{
     justify-content: center;
     color:white;
 }
+
+@media (max-width: 650px) { 
+
+    header{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        color: white;
+    }
+    .main p{
+        width: 50%;
+        font-size: 200;
+    }
+    main h1{
+        font-size: 2rem;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boletin{
+        background-color: var(--color-3);
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .boletin h1{
+        color: white;
+        margin-left: 0px;
+    }
+    .panel_info{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .panel_info_nosotros{
+        display: flex;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        padding: 30px;
+    }   
+    .left_column{
+        width: 100%;
+    }
+    .left_column h1{
+        font-size: 2rem;
+    }
+    .right_column{
+        width: auto;
+        height: auto;
+    }
+    .buscador_boletin{
+        width: 60%;
+    }
+    .button{
+        width: 40%;
+    }
+    .right_columnContacto{
+        width: auto;
+        height: auto;
+    }
+ }
